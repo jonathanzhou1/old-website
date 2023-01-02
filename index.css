@@ -117,7 +117,7 @@ img {
 }
 
 /**COLUMNS**/
-.flex-container>div {
+.flex-container > div {
     background-color: #6dc0f0;
     padding: 20px;
     text-align: start;
@@ -134,7 +134,7 @@ img {
         margin: auto;
     }
 
-    h2 {
+    .contactHeader {
         font-size: 15px;
     }
 
@@ -163,7 +163,7 @@ img {
         margin: auto;
     }
 
-    h2 {
+    .contactHeader {
         font-size: 20px;
     }
 
@@ -184,16 +184,16 @@ img {
         margin: auto;
     }
 
-    h2 {
-        font-size: 40px;
+    .contactHeader {
+        font-size: 28px;
     }
 
     p {
-        font-size: 25px;
+        font-size: large;
     }
 
     #contact>li {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .flex-container {

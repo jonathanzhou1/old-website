@@ -9,21 +9,6 @@ body {
     background-image: linear-gradient(to right, rgb(158, 219, 247), rgb(243, 181, 219));
 }
 
-/**BLOG SECTION**/
-.blogPost {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 60%;
-    padding-bottom: 60px;
-}
-
-aside {
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    padding-left: 0.8rem;
-}
-
 /**HEADER**/
 header {
     padding: 40px 0 5px 0;
@@ -34,7 +19,6 @@ header {
 }
 
 /**TEXT + HEADINGS**/
-
 h3 {
     text-align: center;
     width: 60%;
@@ -147,6 +131,21 @@ nav {
     #contact>li {
         font-size: small;
     }
+
+    /**BLOG SECTION**/
+    .blogPost {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 80%;
+        padding-bottom: 60px;
+    }
+
+    aside {
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        padding-left: 0.8rem;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -182,10 +181,12 @@ nav {
         font-size: 25px;
     }
 
-    /**IFRAME**/
-    iframe {
-        padding: 10px 0 0 0;
-        width: 50%;
-        height: 67em;
+    /**BLOG SECTION**/
+    .blogPost {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 60%;
+        padding-bottom: 60px;
     }
 }
